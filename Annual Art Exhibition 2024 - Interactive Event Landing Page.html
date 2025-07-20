@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Event Landing Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            background: linear-gradient(45deg, #ff6a00, #ee0979, #590fb7);
+            color: white;
+            text-align: center;
+            padding: 50px 0;
+            position: relative;
+            border-bottom: 3px solid #F97500;
+            background-size: 300% 300%;
+            animation: gradientAnimation 3s ease infinite;
+        }
+
+        @keyframes gradientAnimation {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 3em;
+            z-index: 2;
+            position: relative;
+        }
+
+        .header p {
+            font-size: 1.5em;
+            z-index: 2;
+            position: relative;
+        }
+        .section {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .section:nth-child(3) {
+            background: #F9F9F9;
+            border-bottom: 3px solid #F97500;
+        }
+
+        .section:nth-child(5) {
+            background: #333333;
+            color: #fff;
+            padding: 10px 0;
+        }
+
+        .section h2 {
+            color: #F97500;
+        }
+
+        .schedule-box {
+            display: inline-block;
+            background-color: #fff;
+            border: 2px solid #F97500;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 30px 0;
+            max-width: 600px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .schedule-list {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            font-size: 0.9em;
+            color: #333;
+        }
+
+        .schedule-list li {
+            display: flex;
+            justify-content: space-between; 
+            padding: 10px 0;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .schedule-list li:last-child {
+            border-bottom: none;
+        }
+
+        .schedule-list li h3 {
+            color: #F97500;
+            font-size: 1.3em;
+            margin: 0;
+            padding-right: 10px; 
+        }
+
+        .schedule-list li p {
+            color: #555;
+            margin: 0;
+        }
+
+        .registration-box {
+            background: #fff;
+            padding: 20px;
+            max-width: 400px; 
+            margin: 30px auto;
+            border-radius: 8px;
+            border: 2px solid #F97500; 
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+
+        .registration-box input {
+            width: 80%; 
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+            display: block;
+            margin-left: auto;
+            margin-right: auto; 
+        }
+
+        .registration-box input[type="submit"] {
+            background: #F97300;
+            color: white;
+            border: none;
+            cursor: pointer;
+            width: 80%; 
+            margin-top: 10px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto; 
+        }
+
+        .registration-box input[type="submit"]:hover {
+            background: #F75D00;
+        }
+
+        .centered-paragraph {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin: 0 auto;
+            max-width: 80%; 
+            padding: 20px;
+        }
+
+        @media (max-width: 600px) {
+            .header h1 {
+                font-size: 2em;
+            }
+
+            .header p {
+                font-size: 1.2em;
+            }
+
+            .schedule-list li {
+                font-size: 0.8em;
+            }
+
+            .registration-box {
+                padding: 15px;
+                max-width: 90%; 
+            }
+
+            .registration-box input {
+                width: 100%; 
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Annual Art Exhibition 2024</h1> 
+        <p>December 15, 2024 | Lahore, Pakistan</p>
+    </div>
+
+    <div class="section">
+        <h2>About the Event</h2>
+        <div class="centered-paragraph">
+            <p>Welcome to Our Interactive Art Exhibition – Where Creativity Comes to Life!</p>
+            <p>Join us for our latest 2024 art exhibition on December 15th. This event features a diverse range of art styles, from modern to traditional, along with live interactive sessions with esteemed artists.</p>
+            <p>The gallery will also present Special Merit and Special Recognition awards to celebrate outstanding works of art. Many artists in these categories demonstrated exceptional talent, and their creations showcase unique creativity and vision, making them deserving contenders for the top honors.</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Event Schedule</h2>
+        <div class="schedule-box">
+            <ul class="schedule-list">
+                <li>
+                    <h3>10:00 AM</h3>
+                    <p>Registration & Welcome Coffee</p>
+                </li>
+                <li>
+                    <h3>11:00 AM</h3>
+                    <p>Keynote Speech by CEO</p>
+                </li>
+                <li>
+                    <h3>1:00 PM</h3>
+                    <p>Networking Lunch</p>
+                </li>
+                <li>
+                    <h3>2:30 PM</h3>
+                    <p>Breakout Sessions</p>
+                </li>
+                <li>
+                    <h3>5:30 PM</h3>
+                    <p>Closing Remarks & Reception</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Registration Form -->
+    <div class="section">
+        <h2>Register for the Event</h2>
+        <div class="registration-box">
+            <form action="#" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+                <label for="number">Number of Attendees:</label>
+                <input type="number" id="number" name="number" placeholder="Enter number of attendees" required>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+
+    <div class="section">
+        <p>&copy; 2024 Art Exhibition. All Rights Reserved.</p>
+    </div>
+
+</body>
+</html>
