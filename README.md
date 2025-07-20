@@ -1,20 +1,20 @@
-# 🎨 Annual Art Exhibition 2024 - Interactive Event Landing Page
+# Annual Art Exhibition 2024 - Interactive Event Landing Page
 
 This is a responsive and visually appealing event landing page for the **Annual Art Exhibition 2024**, built using only **HTML and CSS**. The page includes event details, a full-day schedule, and an attendee registration form.
 
 ---
 
-## ✨ Features
+## Features
 
-- 🖌️ Visually styled event header with animation
-- 🗓️ Organized event schedule with timings
-- 📋 Interactive registration form with input validation
-- 📱 Fully responsive layout for mobile devices
-- 🌈 Gradient animations for modern UI look
+- Visually styled event header with animation
+- Organized event schedule with timings
+- Interactive registration form with input validation
+- Fully responsive layout for mobile devices
+- Gradient animations for modern UI look
 
 ---
 
-## 📆 Event Details
+## Event Details
 
 - **Date:** December 15, 2024  
 - **Location:** Lahore, Pakistan  
@@ -23,7 +23,7 @@ This is a responsive and visually appealing event landing page for the **Annual 
 
 ---
 
-## 💻 Technologies Used
+## Technologies Used
 
 - HTML5  
 - CSS3 (media queries, animations, flexbox)  
