@@ -48,9 +48,3 @@ This is a responsive and visually appealing event landing page for the **Annual 
 - Beginners learning how to structure a landing page
 
 ---
-
-## How to Use
-
-1. Clone the repository
-   ```bash
-   git clone https://github.com/yourusername/art-exhibition-2024.git
